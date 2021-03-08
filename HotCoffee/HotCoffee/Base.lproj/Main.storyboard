@@ -11,7 +11,7 @@
         <!--Orders-->
         <scene sceneID="Hiu-iZ-Qti">
             <objects>
-                <tableViewController id="XVe-2z-gtE" sceneMemberID="viewController">
+                <tableViewController id="XVe-2z-gtE" customClass="OrdersTableViewController" customModule="HotCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="t6P-fO-zbA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--Add new order-->
         <scene sceneID="eFV-AL-eVC">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ben-n8-hgz" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ben-n8-hgz" customClass="AddOrderViewController" customModule="HotCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1a-Yn-Ova">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
