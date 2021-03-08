@@ -15,6 +15,7 @@
 		929CFCDF25F6E9B100DBB25C /* HotCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFCDE25F6E9B100DBB25C /* HotCoffeeTests.swift */; };
 		929CFCEA25F6E9B100DBB25C /* HotCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFCE925F6E9B100DBB25C /* HotCoffeeUITests.swift */; };
 		929CFD0225F6EAA700DBB25C /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD0125F6EAA700DBB25C /* OrderTableViewController.swift */; };
+		929CFD0725F6EB0C00DBB25C /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		929CFCE925F6E9B100DBB25C /* HotCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCoffeeUITests.swift; sourceTree = "<group>"; };
 		929CFCEB25F6E9B100DBB25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929CFD0125F6EAA700DBB25C /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				929CFD0125F6EAA700DBB25C /* OrderTableViewController.swift */,
+				929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				929CFCC825F6E9AE00DBB25C /* AppDelegate.swift in Sources */,
 				929CFD0225F6EAA700DBB25C /* OrderTableViewController.swift in Sources */,
 				929CFCCA25F6E9AE00DBB25C /* SceneDelegate.swift in Sources */,
+				929CFD0725F6EB0C00DBB25C /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
