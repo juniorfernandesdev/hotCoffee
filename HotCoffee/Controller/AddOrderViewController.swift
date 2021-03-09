@@ -7,6 +7,6 @@
 
 import UIKit
 
-class AddOrderViewController: UITableViewController {
+class AddOrderViewController: UIViewController {
 
 }

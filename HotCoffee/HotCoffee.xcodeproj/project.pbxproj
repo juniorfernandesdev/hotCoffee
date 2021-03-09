@@ -16,6 +16,10 @@
 		929CFCEA25F6E9B100DBB25C /* HotCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFCE925F6E9B100DBB25C /* HotCoffeeUITests.swift */; };
 		929CFD0225F6EAA700DBB25C /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD0125F6EAA700DBB25C /* OrderTableViewController.swift */; };
 		929CFD0725F6EB0C00DBB25C /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */; };
+		929CFD1325F6F31800DBB25C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD1225F6F31700DBB25C /* WebService.swift */; };
+		929CFD1925F6F8DE00DBB25C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD1825F6F8DE00DBB25C /* Order.swift */; };
+		929CFD2125F6F95C00DBB25C /* CoffeeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD2025F6F95C00DBB25C /* CoffeeType.swift */; };
+		929CFD2625F6FA2400DBB25C /* CoffeeSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929CFD2525F6FA2400DBB25C /* CoffeeSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		929CFCEB25F6E9B100DBB25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929CFD0125F6EAA700DBB25C /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
 		929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		929CFD1225F6F31700DBB25C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		929CFD1825F6F8DE00DBB25C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		929CFD2025F6F95C00DBB25C /* CoffeeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeType.swift; sourceTree = "<group>"; };
+		929CFD2525F6FA2400DBB25C /* CoffeeSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		929CFCBB25F6E9AD00DBB25C = {
 			isa = PBXGroup;
 			children = (
+				929CFD1725F6F8CA00DBB25C /* Models */,
+				929CFD1125F6F30800DBB25C /* Services */,
 				929CFCFD25F6E9CE00DBB25C /* Controller */,
 				929CFCC625F6E9AE00DBB25C /* HotCoffee */,
 				929CFCDD25F6E9B100DBB25C /* HotCoffeeTests */,
@@ -137,6 +147,24 @@
 				929CFD0625F6EB0C00DBB25C /* AddOrderViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		929CFD1125F6F30800DBB25C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				929CFD1225F6F31700DBB25C /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		929CFD1725F6F8CA00DBB25C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				929CFD1825F6F8DE00DBB25C /* Order.swift */,
+				929CFD2025F6F95C00DBB25C /* CoffeeType.swift */,
+				929CFD2525F6FA2400DBB25C /* CoffeeSize.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929CFD1925F6F8DE00DBB25C /* Order.swift in Sources */,
+				929CFD2125F6F95C00DBB25C /* CoffeeType.swift in Sources */,
 				929CFCC825F6E9AE00DBB25C /* AppDelegate.swift in Sources */,
 				929CFD0225F6EAA700DBB25C /* OrderTableViewController.swift in Sources */,
 				929CFCCA25F6E9AE00DBB25C /* SceneDelegate.swift in Sources */,
+				929CFD1325F6F31800DBB25C /* WebService.swift in Sources */,
+				929CFD2625F6FA2400DBB25C /* CoffeeSize.swift in Sources */,
 				929CFD0725F6EB0C00DBB25C /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
